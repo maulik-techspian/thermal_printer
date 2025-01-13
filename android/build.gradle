@@ -39,7 +39,7 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-
+    namespace 'com.codingdevs.thermal_printer'
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 33
